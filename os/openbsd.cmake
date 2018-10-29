@@ -1,0 +1,7 @@
+if(DEFINED POLLY_OS_OPENBSD_CMAKE_)
+  return()
+else()
+  set(POLLY_OS_OPENBSD_CMAKE_ 1)
+endif()
+
+set(OPENBSD 1 CACHE INTERNAL "")

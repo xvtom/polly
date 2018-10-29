@@ -656,6 +656,7 @@ if os.name == 'posix':
       Toolchain('sanitize-thread-cxx17', 'Unix Makefiles'),
       Toolchain('arm-openwrt-linux-muslgnueabi', 'Unix Makefiles'),
       Toolchain('openbsd-egcc-cxx11-static-std', 'Unix Makefiles'),
+      Toolchain('openbsd-clang-cxx14-pic-std', 'Unix Makefiles'),
   ]
 
 def get_by_name(name):
